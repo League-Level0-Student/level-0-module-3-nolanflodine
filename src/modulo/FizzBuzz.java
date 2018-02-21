@@ -26,6 +26,20 @@ package modulo;
 **/
 
 public class FizzBuzz {
-
+public static void main(String[] args) throws InterruptedException {
+for (int i = 1; i < 21; i++) {
+if (i%3>=1&&i%5>=1) {
+System.out.println(i);	
+Thread.sleep(1000);
+}else {
+if(i%3==0) {
+System.out.println("Fizz");
+}
+if (i%5==0) {
+System.out.println("Buzz");
+}
+}	
+}
+}
 }
 

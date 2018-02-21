@@ -42,18 +42,5 @@ Jeff.turn(-6);
 Jeff.move(1);
 Jeff.turn(5);
 }
-for (int i = 0; i < 10; i++) {
-	Jeff.move(10);
-	Jeff.turn(30);
-	Jeff.move(10);
-	Jeff.turn(-10);	
-}
-Jeff.turn(105);
-for (int i = 0; i < 10; i++) {
-	Jeff.move(3);
-	Jeff.turn(-15);
-	Jeff.move(3);
-	Jeff.turn(5);	
-}
 }
 }
